@@ -1,0 +1,4 @@
+name: KillToKill
+version: '${project.version}'
+main: io.github.eggnmad.killtokill.KillToKill
+api-version: 1.16
