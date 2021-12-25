@@ -28,6 +28,7 @@ public class PlayerKilledPlayerEvent extends Event {
         return HANDLER_LIST;
     }
 
+
     public Player getAttacker(){
         return this.attacker;
     }
@@ -39,4 +40,5 @@ public class PlayerKilledPlayerEvent extends Event {
     public DamageCause getDamageCause() {
         return damageCause;
     }
+
 }
